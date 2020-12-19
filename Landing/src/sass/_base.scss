@@ -1,0 +1,14 @@
+* {
+  //Needed as sanitize doesnt resets the paddings
+  padding: 0;
+}
+
+html {
+  // 1Rem = 10px
+  font-size: 62.5%;
+}
+
+body {
+    font-family: $font-secondary;
+    font-weight: 300;
+}

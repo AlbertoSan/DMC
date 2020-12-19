@@ -1,2 +1,2 @@
 # DMC
-Landing of DMC
+DMC Landing Page
