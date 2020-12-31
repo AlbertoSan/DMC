@@ -1,6 +1,10 @@
 * {
   //Needed as sanitize doesnt resets the paddings
   padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
 
 html {

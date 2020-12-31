@@ -1,0 +1,42 @@
+// GENERICS
+// ALIGNS
+.vertical-align{
+    display: flex;
+    flex-direction: column;
+}
+
+.horrizontal-align{
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// BUTTONS
+.main-button{
+    width: 347px;
+    height: 89px;
+    text-align: center;
+    background-color: #fff;
+    color: $color-main;
+    border-radius: 100px;
+    font-size: 28px;
+    font-family: $font-main;
+    box-shadow: 10px 12px 20px #5f5f5f;
+}
+
+.secundary-button{
+    width: 302px;
+    height: 69px;
+    font-size: 44px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    font-family: $font-main;
+    background-color: $color-secondary;
+    box-shadow: 10px 12px 20px #5f5f5f;
+}

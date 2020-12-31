@@ -7,10 +7,14 @@
     "start": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
-  "author": "Heradocles & Alberto",
+  "author": "Heradocles, Alberto & Voca",
   "license": "MIT",
+  "engines": {
+    "node": "10.16.3"
+  },
   "dependencies": {
-    "axios": "^0.21.0"
+    "axios": "^0.21.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
