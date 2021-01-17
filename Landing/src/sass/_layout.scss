@@ -16,6 +16,17 @@
     align-items: center;
 }
 
+button{
+    cursor: pointer;
+    text-transform: uppercase;
+    &:active{
+        transform: translateY(2px);
+    }
+    &:hover{
+        scale: 1.025;
+    }
+}
+
 // BUTTONS
 .main-button{
     width: 347px;
